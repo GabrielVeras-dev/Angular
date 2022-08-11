@@ -9,10 +9,10 @@ import { Course } from "./course";
 
 export class CourseListComponent implements OnInit {
 
-    course: Course[] = [];
+    courses: Course[] = [];
 
     ngOnInit(): void {
-        this.course = [
+        this.courses = [
             {
                 id: 1,
                 name: 'Angular: Forms',
@@ -28,8 +28,8 @@ export class CourseListComponent implements OnInit {
                 name: 'Angular: HTTP',
                 imageUrl: '',
                 price: 45.99,
-                code: 'XPS-8796',
-                duration: 120,
+                code: 'XPS-8799',
+                duration: 80,
                 rating: 4,
                 releaseDate: 'November, 4,2021'
             }

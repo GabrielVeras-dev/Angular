@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CourseListComponent } from './courses/course-list.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import { StarComponent } from './star/star.component';
 
 @NgModule({
@@ -11,6 +11,7 @@ import { StarComponent } from './star/star.component';
     AppComponent,
     CourseListComponent,
     StarComponent,
+    FontAwesomeModule,
   ],
   imports: [
     BrowserModule,

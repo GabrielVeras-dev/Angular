@@ -19,6 +19,5 @@ export class Course {
         this.duration = duration;
         this.rating = rating;
         this.releaseDate = releaseDate;
-    }
-
-}
+    };
+};

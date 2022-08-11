@@ -7,7 +7,7 @@ import { CourseListComponent } from './courses/course-list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CourseListComponent
+    CourseListComponent,
   ],
   imports: [
     BrowserModule,
@@ -16,5 +16,4 @@ import { CourseListComponent } from './courses/course-list.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
-export class Course {}
+export class AppModule {}

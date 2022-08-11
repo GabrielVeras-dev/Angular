@@ -11,3 +11,5 @@ export class AppComponent {
   name: string = 'Gabriel';
 
 }
+
+export class Course{}

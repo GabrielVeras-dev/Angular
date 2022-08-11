@@ -8,9 +8,11 @@ import { Course } from "./course";
 })
 
 export class CourseListComponent implements OnInit {
-    courses: Course[] = [];
+
+    course: Course[] = [];
+
     ngOnInit(): void {
-        this.courses = [
+        this.course = [
             {
                 id: 1,
                 name: 'Angular: Forms',
